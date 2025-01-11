@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --color-primary: #4A90E2;
+  --color-secondary: #50E3C2;
+  --color-accent: #F5A623;
+  --color-background: #F9FAFB;
+  --color-text: #333333;
+  --color-cardBackground: #FFFFFF;
+  --color-cardBorder: #E4E4E4;
+  --color-marked: #4CAF50;
+  --color-button: #FF5722;
+  --color-buttonHover: #FF7043;
+
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--color-background);
+}
